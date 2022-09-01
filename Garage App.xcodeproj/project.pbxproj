@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8289C76CD9165CDD6EC14A /* Pods_Garage_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90980D4A5C0D4BFF26C245D4 /* Pods_Garage_App.framework */; };
+		FD22BF0628C130CA006292CA /* SingupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF0528C130CA006292CA /* SingupViewController.swift */; };
+		FD22BF0828C130DA006292CA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF0728C130DA006292CA /* DashboardViewController.swift */; };
+		FD22BF0D28C133A9006292CA /* LoginUiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF0C28C133A9006292CA /* LoginUiController.swift */; };
+		FD22BF0F28C133C1006292CA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF0E28C133C1006292CA /* LoginViewModel.swift */; };
+		FD22BF1628C13672006292CA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF1528C13672006292CA /* Constant.swift */; };
+		FD22BF1928C13728006292CA /* UiViewController + UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF1828C13728006292CA /* UiViewController + UIApplication.swift */; };
+		FD22BF1D28C13A84006292CA /* UserLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF1C28C13A84006292CA /* UserLoginManager.swift */; };
+		FD22BF2028C13D81006292CA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF1F28C13D81006292CA /* User.swift */; };
+		FD22BF2228C13DC6006292CA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2128C13DC6006292CA /* Car.swift */; };
+		FD22BF2428C13E21006292CA /* CarMakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2328C13E21006292CA /* CarMakeData.swift */; };
+		FD22BF2628C13E53006292CA /* CarModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2528C13E53006292CA /* CarModelData.swift */; };
+		FD22BF2828C141B1006292CA /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2728C141B1006292CA /* RealmManager.swift */; };
+		FD22BF2A28C144BB006292CA /* CarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2928C144BB006292CA /* CarManager.swift */; };
+		FD22BF2C28C14653006292CA /* SingUpUiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2B28C14653006292CA /* SingUpUiController.swift */; };
+		FD22BF2E28C146F8006292CA /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2D28C146F8006292CA /* SignUpViewModel.swift */; };
+		FD22BF3028C14C04006292CA /* DashboardUiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF2F28C14C04006292CA /* DashboardUiController.swift */; };
+		FD22BF3228C14D19006292CA /* DasthBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF3128C14D19006292CA /* DasthBoardViewModel.swift */; };
+		FD22BF3528C14DCB006292CA /* CarRestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF3428C14DCB006292CA /* CarRestManager.swift */; };
+		FD22BF3728C14DFC006292CA /* CarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF3628C14DFC006292CA /* CarAPI.swift */; };
+		FD22BF3A28C14F07006292CA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF3928C14F07006292CA /* TextField.swift */; };
+		FD22BF4028C150DC006292CA /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22BF3E28C150DC006292CA /* CarTableViewCell.swift */; };
+		FD22BF4128C150DC006292CA /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD22BF3F28C150DC006292CA /* CarTableViewCell.xib */; };
+		FDED92FF28C0F6FE0027297B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED92FE28C0F6FE0027297B /* AppDelegate.swift */; };
+		FDED930128C0F6FE0027297B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED930028C0F6FE0027297B /* SceneDelegate.swift */; };
+		FDED930328C0F6FE0027297B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED930228C0F6FE0027297B /* LoginViewController.swift */; };
+		FDED930628C0F6FE0027297B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDED930428C0F6FE0027297B /* Main.storyboard */; };
+		FDED930828C0F6FF0027297B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDED930728C0F6FF0027297B /* Assets.xcassets */; };
+		FDED930B28C0F6FF0027297B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDED930928C0F6FF0027297B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05E1656061B0385F3D42986E /* Pods-Garage App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garage App.debug.xcconfig"; path = "Target Support Files/Pods-Garage App/Pods-Garage App.debug.xcconfig"; sourceTree = "<group>"; };
+		90980D4A5C0D4BFF26C245D4 /* Pods_Garage_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Garage_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95C33DD603ACC66DA80E7BD /* Pods-Garage App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garage App.release.xcconfig"; path = "Target Support Files/Pods-Garage App/Pods-Garage App.release.xcconfig"; sourceTree = "<group>"; };
+		FD22BF0528C130CA006292CA /* SingupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupViewController.swift; sourceTree = "<group>"; };
+		FD22BF0728C130DA006292CA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FD22BF0C28C133A9006292CA /* LoginUiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUiController.swift; sourceTree = "<group>"; };
+		FD22BF0E28C133C1006292CA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FD22BF1528C13672006292CA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FD22BF1828C13728006292CA /* UiViewController + UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController + UIApplication.swift"; sourceTree = "<group>"; };
+		FD22BF1C28C13A84006292CA /* UserLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginManager.swift; sourceTree = "<group>"; };
+		FD22BF1F28C13D81006292CA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FD22BF2128C13DC6006292CA /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		FD22BF2328C13E21006292CA /* CarMakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMakeData.swift; sourceTree = "<group>"; };
+		FD22BF2528C13E53006292CA /* CarModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelData.swift; sourceTree = "<group>"; };
+		FD22BF2728C141B1006292CA /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		FD22BF2928C144BB006292CA /* CarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarManager.swift; sourceTree = "<group>"; };
+		FD22BF2B28C14653006292CA /* SingUpUiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpUiController.swift; sourceTree = "<group>"; };
+		FD22BF2D28C146F8006292CA /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		FD22BF2F28C14C04006292CA /* DashboardUiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUiController.swift; sourceTree = "<group>"; };
+		FD22BF3128C14D19006292CA /* DasthBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasthBoardViewModel.swift; sourceTree = "<group>"; };
+		FD22BF3428C14DCB006292CA /* CarRestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRestManager.swift; sourceTree = "<group>"; };
+		FD22BF3628C14DFC006292CA /* CarAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAPI.swift; sourceTree = "<group>"; };
+		FD22BF3928C14F07006292CA /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		FD22BF3E28C150DC006292CA /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		FD22BF3F28C150DC006292CA /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
+		FDED92FB28C0F6FE0027297B /* Garage App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garage App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED92FE28C0F6FE0027297B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDED930028C0F6FE0027297B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDED930228C0F6FE0027297B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FDED930528C0F6FE0027297B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDED930728C0F6FF0027297B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDED930A28C0F6FF0027297B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDED930C28C0F6FF0027297B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDED92F828C0F6FE0027297B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8289C76CD9165CDD6EC14A /* Pods_Garage_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6194F666EC0E8FDD75CDFE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90980D4A5C0D4BFF26C245D4 /* Pods_Garage_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB965C503AE4FFC9E44393D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05E1656061B0385F3D42986E /* Pods-Garage App.debug.xcconfig */,
+				E95C33DD603ACC66DA80E7BD /* Pods-Garage App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD22BF0928C130DF006292CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF3B28C1500E006292CA /* UiTableViewCell */,
+				FD22BF3828C14EE7006292CA /* CustomView */,
+				FD22BF0A28C13282006292CA /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD22BF0A28C13282006292CA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF1128C13432006292CA /* DashboardViewController */,
+				FD22BF1028C13424006292CA /* SignUpViewController */,
+				FD22BF0B28C13328006292CA /* LoginViewContoller */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FD22BF0B28C13328006292CA /* LoginViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				FDED930228C0F6FE0027297B /* LoginViewController.swift */,
+				FD22BF0C28C133A9006292CA /* LoginUiController.swift */,
+				FD22BF0E28C133C1006292CA /* LoginViewModel.swift */,
+			);
+			path = LoginViewContoller;
+			sourceTree = "<group>";
+		};
+		FD22BF1028C13424006292CA /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF0528C130CA006292CA /* SingupViewController.swift */,
+				FD22BF2B28C14653006292CA /* SingUpUiController.swift */,
+				FD22BF2D28C146F8006292CA /* SignUpViewModel.swift */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		FD22BF1128C13432006292CA /* DashboardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF0728C130DA006292CA /* DashboardViewController.swift */,
+				FD22BF2F28C14C04006292CA /* DashboardUiController.swift */,
+				FD22BF3128C14D19006292CA /* DasthBoardViewModel.swift */,
+			);
+			path = DashboardViewController;
+			sourceTree = "<group>";
+		};
+		FD22BF1328C13658006292CA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF1528C13672006292CA /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FD22BF1728C13701006292CA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF1828C13728006292CA /* UiViewController + UIApplication.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FD22BF1A28C13826006292CA /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF1C28C13A84006292CA /* UserLoginManager.swift */,
+				FD22BF2728C141B1006292CA /* RealmManager.swift */,
+				FD22BF2928C144BB006292CA /* CarManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		FD22BF1E28C13D6F006292CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF1F28C13D81006292CA /* User.swift */,
+				FD22BF2128C13DC6006292CA /* Car.swift */,
+				FD22BF2328C13E21006292CA /* CarMakeData.swift */,
+				FD22BF2528C13E53006292CA /* CarModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD22BF3328C14D68006292CA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF3428C14DCB006292CA /* CarRestManager.swift */,
+				FD22BF3628C14DFC006292CA /* CarAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FD22BF3828C14EE7006292CA /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF3928C14F07006292CA /* TextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FD22BF3B28C1500E006292CA /* UiTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF3E28C150DC006292CA /* CarTableViewCell.swift */,
+				FD22BF3F28C150DC006292CA /* CarTableViewCell.xib */,
+			);
+			path = UiTableViewCell;
+			sourceTree = "<group>";
+		};
+		FDED92F228C0F6FE0027297B = {
+			isa = PBXGroup;
+			children = (
+				FDED92FD28C0F6FE0027297B /* Garage App */,
+				FDED92FC28C0F6FE0027297B /* Products */,
+				BDB965C503AE4FFC9E44393D /* Pods */,
+				6194F666EC0E8FDD75CDFE42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDED92FC28C0F6FE0027297B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDED92FB28C0F6FE0027297B /* Garage App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDED92FD28C0F6FE0027297B /* Garage App */ = {
+			isa = PBXGroup;
+			children = (
+				FD22BF3328C14D68006292CA /* Network */,
+				FD22BF1E28C13D6F006292CA /* Model */,
+				FD22BF1A28C13826006292CA /* Realm */,
+				FD22BF1728C13701006292CA /* Extension */,
+				FD22BF1328C13658006292CA /* Constants */,
+				FD22BF0928C130DF006292CA /* View */,
+				FDED92FE28C0F6FE0027297B /* AppDelegate.swift */,
+				FDED930028C0F6FE0027297B /* SceneDelegate.swift */,
+				FDED930428C0F6FE0027297B /* Main.storyboard */,
+				FDED930728C0F6FF0027297B /* Assets.xcassets */,
+				FDED930928C0F6FF0027297B /* LaunchScreen.storyboard */,
+				FDED930C28C0F6FF0027297B /* Info.plist */,
+			);
+			path = "Garage App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDED92FA28C0F6FE0027297B /* Garage App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED930F28C0F6FF0027297B /* Build configuration list for PBXNativeTarget "Garage App" */;
+			buildPhases = (
+				C7E2597803754D35520B4924 /* [CP] Check Pods Manifest.lock */,
+				FDED92F728C0F6FE0027297B /* Sources */,
+				FDED92F828C0F6FE0027297B /* Frameworks */,
+				FDED92F928C0F6FE0027297B /* Resources */,
+				08CBD6127FE202C2C44C5E03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Garage App";
+			productName = "Garage App";
+			productReference = FDED92FB28C0F6FE0027297B /* Garage App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDED92F328C0F6FE0027297B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FDED92FA28C0F6FE0027297B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = FDED92F628C0F6FE0027297B /* Build configuration list for PBXProject "Garage App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDED92F228C0F6FE0027297B;
+			productRefGroup = FDED92FC28C0F6FE0027297B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDED92FA28C0F6FE0027297B /* Garage App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDED92F928C0F6FE0027297B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED930B28C0F6FF0027297B /* LaunchScreen.storyboard in Resources */,
+				FDED930828C0F6FF0027297B /* Assets.xcassets in Resources */,
+				FD22BF4128C150DC006292CA /* CarTableViewCell.xib in Resources */,
+				FDED930628C0F6FE0027297B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CBD6127FE202C2C44C5E03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Garage App/Pods-Garage App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Garage App/Pods-Garage App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Garage App/Pods-Garage App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E2597803754D35520B4924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Garage App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDED92F728C0F6FE0027297B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD22BF1D28C13A84006292CA /* UserLoginManager.swift in Sources */,
+				FDED930328C0F6FE0027297B /* LoginViewController.swift in Sources */,
+				FD22BF4028C150DC006292CA /* CarTableViewCell.swift in Sources */,
+				FD22BF3A28C14F07006292CA /* TextField.swift in Sources */,
+				FD22BF2828C141B1006292CA /* RealmManager.swift in Sources */,
+				FD22BF2428C13E21006292CA /* CarMakeData.swift in Sources */,
+				FD22BF3228C14D19006292CA /* DasthBoardViewModel.swift in Sources */,
+				FD22BF2228C13DC6006292CA /* Car.swift in Sources */,
+				FD22BF1928C13728006292CA /* UiViewController + UIApplication.swift in Sources */,
+				FD22BF0D28C133A9006292CA /* LoginUiController.swift in Sources */,
+				FDED92FF28C0F6FE0027297B /* AppDelegate.swift in Sources */,
+				FD22BF3528C14DCB006292CA /* CarRestManager.swift in Sources */,
+				FD22BF1628C13672006292CA /* Constant.swift in Sources */,
+				FD22BF2628C13E53006292CA /* CarModelData.swift in Sources */,
+				FD22BF0828C130DA006292CA /* DashboardViewController.swift in Sources */,
+				FD22BF0628C130CA006292CA /* SingupViewController.swift in Sources */,
+				FD22BF2E28C146F8006292CA /* SignUpViewModel.swift in Sources */,
+				FD22BF2A28C144BB006292CA /* CarManager.swift in Sources */,
+				FDED930128C0F6FE0027297B /* SceneDelegate.swift in Sources */,
+				FD22BF2C28C14653006292CA /* SingUpUiController.swift in Sources */,
+				FD22BF0F28C133C1006292CA /* LoginViewModel.swift in Sources */,
+				FD22BF2028C13D81006292CA /* User.swift in Sources */,
+				FD22BF3028C14C04006292CA /* DashboardUiController.swift in Sources */,
+				FD22BF3728C14DFC006292CA /* CarAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDED930428C0F6FE0027297B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDED930528C0F6FE0027297B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDED930928C0F6FF0027297B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDED930A28C0F6FF0027297B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDED930D28C0F6FF0027297B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDED930E28C0F6FF0027297B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDED931028C0F6FF0027297B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E1656061B0385F3D42986E /* Pods-Garage App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D45YX3U7F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Garage App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Garage App";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agy3ya.Garage-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDED931128C0F6FF0027297B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95C33DD603ACC66DA80E7BD /* Pods-Garage App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D45YX3U7F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Garage App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Garage App";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agy3ya.Garage-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDED92F628C0F6FE0027297B /* Build configuration list for PBXProject "Garage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED930D28C0F6FF0027297B /* Debug */,
+				FDED930E28C0F6FF0027297B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED930F28C0F6FF0027297B /* Build configuration list for PBXNativeTarget "Garage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED931028C0F6FF0027297B /* Debug */,
+				FDED931128C0F6FF0027297B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDED92F328C0F6FE0027297B /* Project object */;
+}
